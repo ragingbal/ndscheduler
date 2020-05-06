@@ -10,6 +10,18 @@ DEBUG = True
 HTTP_PORT = 8888
 HTTP_ADDRESS = '0.0.0.0'
 
+
+DATABASE_CLASS = 'ndscheduler.corescheduler.datastore.providers.postgres.DatastorePostgres'
+DATABASE_CONFIG_DICT = {
+     'user': 'username',
+     'password': '',
+     'hostname': 'localhost',
+     'port': 5432,
+     'database': 'scheduler',
+     'sslmode': 'disable'
+ }
+
+
 #
 # Set logging level
 #

@@ -14,7 +14,7 @@ HTTP_ADDRESS = '0.0.0.0'
 DATABASE_CLASS = 'ndscheduler.corescheduler.datastore.providers.postgres.DatastorePostgres'
 DATABASE_CONFIG_DICT = {
      'user': 'username',
-     'password': '',
+     'password': 'password',
      'hostname': '192.168.0.157',
      'port': 5432,
      'database': 'scheduler',

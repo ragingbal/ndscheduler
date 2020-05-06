@@ -15,7 +15,7 @@ DATABASE_CLASS = 'ndscheduler.corescheduler.datastore.providers.postgres.Datasto
 DATABASE_CONFIG_DICT = {
      'user': 'username',
      'password': '',
-     'hostname': 'localhost',
+     'hostname': '192.168.0.157',
      'port': 5432,
      'database': 'scheduler',
      'sslmode': 'disable'
